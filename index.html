@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <title>Christmas Wishlist</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>My Christmas Wishlist</h1>
+
+  <div id="wishlist"></div>
+
+  <form id="itemForm">
+    <label for="itemName">Item Name:</label><br>
+    <input type="text" id="itemName"><br>
+    <label for="itemDescription">Description:</label><br>
+    <input type="text" id="itemDescription"><br>
+    <label for="itemLinkToPurchase">Link to Purchase:</label><br>
+    <input type="text" id="itemLinkToPurchase"><br>
+    <label for="itemIndex">Item Index:</label><br>
+    <input type="text" id="itemIndex"><br>
+    <button type="button" onclick="addItem()">Add Item</button>
+    <button type="button" onclick="removeItem()">Remove Item</button>
+    <button type="button" onclick="displayWishlist()">Display Wishlist</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
